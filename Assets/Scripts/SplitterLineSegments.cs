@@ -6,13 +6,8 @@ using UnityEngine;
 
 public class SplitterLineSegments : MonoBehaviour
 {
-    public class LineSegmentSplitter
-    {
-        private List<LineSegment> lineSegments;
-        
-    }
-
     [SerializeField] private MonoLineSegment lineSegmentPrefab;
+    
     public void ApplySplitLineSegments()
     {
         var lineSegments = new List<LineSegment>();
